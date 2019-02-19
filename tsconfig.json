@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es7", "dom", "webworker"],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "sw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "cpy": "cp ./build/* ../rooft/build && cp ./build/* ../rooft/app",
+    "go": "npm run build && npm run cpy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
